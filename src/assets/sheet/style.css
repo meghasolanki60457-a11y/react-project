@@ -478,3 +478,38 @@
 .swiper-slide-active .testimonial-text p {
   color: #fff;
 }
+/* dono buttons ka common style */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  border-radius: 0;
+  left: auto; /* IMPORTANT */
+}
+
+/* RIGHT SIDE positioning */
+.swiper-button-prev {
+  right: 20px;
+  top: 45%;
+}
+
+.swiper-button-next {
+  right: 20px;
+  top: 55%;
+}
+
+/* icon size */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 16px;
+}
+
+/* hover effect */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #06bbcc;
+  border-color: #06bbcc;
+}
